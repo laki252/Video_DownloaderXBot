@@ -191,9 +191,9 @@ async def is_user_in_channel(client, user_id: int) -> bool:
 async def send_join_prompt_to_target(client, uid: int, reply_target=None):
     clean_channel_username = REQUIRED_CHANNEL.replace("@", "")
     kb = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🔗 Join", url=f"https://t.me/{clean_channel_username}")]
+        [InlineKeyboardButton("click here join 💋", url=f"https://t.me/{clean_channel_username}")]
     ])
-    text = f"First, join my channel 😜"
+    text = f"First, join my channel🥸"
     try:
         if reply_target is not None:
             try:
